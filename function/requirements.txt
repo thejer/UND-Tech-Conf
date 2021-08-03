@@ -1,0 +1,10 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+azure-functions==1.2.1
+DateTime==4.3
+psycopg2-binary==2.8.5
+python-http-client==3.2.7
+pytz==2020.1
+sendgrid==6.3.1
+zope.interface==5.1.0
